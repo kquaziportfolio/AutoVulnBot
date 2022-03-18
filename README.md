@@ -1,0 +1,2 @@
+# AutoVulnBot
+This is a Discord bot that scans files sent in Guilds the bot is in. Currently, it uses two scanning methods: YARA and MD5 hashes. When a file is sent, we scan it against both the MD5 hashes in "scannerlib/malhas.txt" and the YARA rules in "scannerlib\rules".
